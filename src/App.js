@@ -1,6 +1,7 @@
 import './App.css';
 
 import HeroSection from './components/HeroSection'
+import StoreListings from './components/StoreListings';
 import TopBar from './components/TopBar'
 
 
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       <TopBar />
       <HeroSection />
-      <h1>Hello World</h1>
+      <StoreListings />
     </div>
   )
 }

@@ -14,11 +14,11 @@ function HeroSection() {
                     <div style={{ width: "550px", textAlign: "left" }}>
                         <h1>Order groceries for delivery or pickup today</h1>
                         <p>Whatever you want from local stores, brought right to your door.</p>
-                        <form>
+                        <form style={{display: "flex", width: "290px", justifyContent: "space-between"}}>
                             <Form.Group className="mb-3" controlId="formBasicAddress">
                                 <Form.Control type="address" placeholder="Enter address" />
                             </Form.Group>
-                            <Button variant="primary" type="submit">
+                            <Button variant="dark" type="submit" style={{height: "38px"}}>
                                 Submit
                             </Button>
                         </form>
